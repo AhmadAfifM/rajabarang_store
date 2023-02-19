@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import Product from "./Product";
 import Title from "./Title";
 import { storeProducts } from "../data";
 import { ProductConsumer } from "../context";
 const ProductList = () => {
-  const [state, setState] = useState(storeProducts);
+  // const [state, setState] = useState(storeProducts);
   // console.log(state);
   return (
     <>
