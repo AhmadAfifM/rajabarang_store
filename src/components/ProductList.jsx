@@ -1,7 +1,7 @@
 import React from "react";
 import Product from "./Product";
 import Title from "./Title";
-import { storeProducts } from "../data";
+// import { storeProducts } from "../data";
 import { ProductConsumer } from "../context";
 const ProductList = () => {
   // const [state, setState] = useState(storeProducts);
